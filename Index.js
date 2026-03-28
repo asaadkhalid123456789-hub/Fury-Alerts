@@ -1,3 +1,4 @@
+require('dotenv').config();
 const { Client, GatewayIntentBits } = require('discord.js');
 const axios = require('axios');
 const fs = require('fs');
@@ -5,7 +6,6 @@ const fs = require('fs');
 const client = new Client({
   intents: [GatewayIntentBits.Guilds]
 });
-
 const CHANNEL_ID = '1480131301083185163';
 const STREAMER = 'fahadft';
 
@@ -56,4 +56,4 @@ client.once('ready', () => {
   setInterval(checkKick, 60000); // every 60 sec
 });
 
-client.login(TOKEN = 'MTQ4NzMzNDgyNjAyMDE3OTk5OA.GvHwJt.bn2N6D-JAkO5RM9e2Du4leYnI_yXOo7aR_wMcs');
+client.login(process.env.TOKEN).catch(err => console.error('Login failed:', err));
