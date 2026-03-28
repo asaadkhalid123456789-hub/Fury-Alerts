@@ -6,7 +6,6 @@ const client = new Client({
   intents: [GatewayIntentBits.Guilds]
 });
 
-const TOKEN = 'MTQ4NzMzNDgyNjAyMDE3OTk5OA.GSreK3.iFlotnXSjMyhj31CTOpLt2UnPN5_kfBYWRlTQo';
 const CHANNEL_ID = '1480131301083185163';
 const STREAMER = 'fahadft';
 
@@ -57,4 +56,4 @@ client.once('ready', () => {
   setInterval(checkKick, 60000); // every 60 sec
 });
 
-client.login(TOKEN);
+client.login(TOKEN = 'MTQ4NzMzNDgyNjAyMDE3OTk5OA.G27FQO.Hw9KWtOrukPLwxJxeQqppds5C9_-yNsUNFLmeE');
