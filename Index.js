@@ -6,7 +6,7 @@ const client = new Client({
   intents: [GatewayIntentBits.Guilds]
 });
 
-const TOKEN = 'MTQ4NzMzNDgyNjAyMDE3OTk5OA.GOpMkB.FFsDl_Eqlcwgz5OxX1dF4CJDXX8Xv_bN5-DNk0';
+const TOKEN = 'MTQ4NzMzNDgyNjAyMDE3OTk5OA.GSreK3.iFlotnXSjMyhj31CTOpLt2UnPN5_kfBYWRlTQo';
 const CHANNEL_ID = '1480131301083185163';
 const STREAMER = 'fahadft';
 
