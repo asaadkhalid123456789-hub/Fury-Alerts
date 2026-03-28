@@ -56,4 +56,4 @@ client.once('ready', () => {
   setInterval(checkKick, 60000); // every 60 sec
 });
 
-client.login(TOKEN = 'MTQ4NzMzNDgyNjAyMDE3OTk5OA.G27FQO.Hw9KWtOrukPLwxJxeQqppds5C9_-yNsUNFLmeE');
+client.login(TOKEN = 'MTQ4NzMzNDgyNjAyMDE3OTk5OA.GvHwJt.bn2N6D-JAkO5RM9e2Du4leYnI_yXOo7aR_wMcs');
